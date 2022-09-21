@@ -12,6 +12,8 @@
 
         <!-- js -->
         <script type="module" src="app.js"></script>
+        <script type="module" src="fetch-bb.js"></script>
+        <script type="module" src="render-bb.js"></script>
 
         <!-- fonts -->
         <!-- see https://fonts.google.com/ -->
@@ -19,13 +21,15 @@
         <!-- css -->
         <link rel="stylesheet" href="styles/reset.css" />
         <link rel="stylesheet" href="styles/global.css" />
+        <link rel="stylesheet" href="styles/beanie-babies.css" />
         <!-- add link for page specific css -->
     </head>
 
     <body>
         <header>
-            <img class="logo" src="assets/html_css_js.png" alt="logo" />
+            <img class="logo" src="assets/bb-header-img.gif" height="20px" alt="logo" />
             <h1>Beanie Babies</h1>
+            <img class="logo" src="assets/bb-header-img.gif" height="20px" alt="logo" />
         </header>
 
         <main>
@@ -40,7 +44,20 @@
                 <p id="notification-display">Search to find Beanie Babies</p>
             </section>
 
-            <ul class="list" id="beanie-babies-list"></ul>
+            <ul class="list" id="beanie-babies-list">
+                <li class="card">
+                    <img src="assets/bb-header-img.gif" alt="" />
+                    <div class="details">
+                        <h2>what butt</h2>
+                        <p class="attributes">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </p>
+                        <p class="release-date">dsfdsf</p>
+                    </div>
+                </li>
+            </ul>
         </main>
     </body>
 </html>
