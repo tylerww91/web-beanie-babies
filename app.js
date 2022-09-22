@@ -27,8 +27,8 @@ window.addEventListener('load', async () => {
 
 searchForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    const formData = new formData(searchform);
-    findBeanies(formData.get('title'), formData.get('beanie_baby_astro_signs'));
+    const formData = new FormData(searchForm);
+    findBeanies(formData.get('name'), formData.get('astroSign'));
 });
 
 /* Display Functions */

@@ -25,6 +25,7 @@ export function renderBeanie(beanie) {
 
     const releaseDate = document.createElement('p');
     releaseDate.classList.add('release-date');
+    releaseDate.textContent = `released on ${beanie.releaseDate}`;
 
     details.append(h2, attributes, releaseDate);
 
