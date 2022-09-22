@@ -4,7 +4,6 @@ import { renderBeanie, renderAstroSignOption } from './render-bb.js';
 /* Get DOM Elements */
 const searchForm = document.getElementById('search-form');
 const beanieBabiesList = document.getElementById('beanie-babies-list');
-const beanieImage = document.getElementById('beanie-image');
 const astroSignSelect = document.getElementById('astro-sign-select');
 const notificationDisplay = document.getElementById('notification-display');
 
