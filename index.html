@@ -11,6 +11,7 @@
         <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
 
         <!-- js -->
+        <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
         <script type="module" src="app.js"></script>
         <script type="module" src="fetch-bb.js"></script>
         <script type="module" src="render-bb.js"></script>
@@ -36,8 +37,8 @@
             <section class="search">
                 <form id="search-form">
                     <input name="name" placeholder="name" />
-                    <select id="animal-select" name="animal">
-                        <option value="">Every Animal</option>
+                    <select id="astro-select" name="astrology-sign">
+                        <option value="">Every Astrosign</option>
                     </select>
                     <button>🧸</button>
                 </form>
@@ -46,7 +47,7 @@
 
             <ul class="list" id="beanie-babies-list">
                 <li class="card">
-                    <img src="assets/bb-header-img.gif" alt="" />
+                    <img class="beanie-image" src="assets/bb-header-img.gif" alt="" />
                     <div class="details">
                         <h2>what butt</h2>
                         <p class="attributes">
