@@ -10,3 +10,10 @@ export async function getBeanieBabies(title, astroSign) {
     const response = await query;
     return response;
 }
+
+export async function getAstroSigns() {
+    let query = client.from('beanie_baby_astro_signs').select('*').order('name');
+
+    const response = await query;
+    return response;
+}
