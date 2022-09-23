@@ -40,3 +40,10 @@ export function renderAstroSignOption(astroSign) {
     option.textContent = astroSign.name;
     return option;
 }
+
+export function renderAnimalOption(animal) {
+    const option = document.createElement('option');
+    option.value = animal.name; // maybe type
+    option.textContent = animal.name;
+    return option;
+}
